@@ -1,0 +1,36 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+       <p>I am an illustrator and computer programmer and overall GEEK! I major in data science and Digital art
+          I know, two different worlds, but that is my world. This website is dedicated to commentary on everything
+          pop culture and fandom related. Think of it like an opinion piece made by one of the guys from Big Bang Theory.
+          I hope you find this website useful and interesting.
+
+         Yours Truly
+         Kat
+       </p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
